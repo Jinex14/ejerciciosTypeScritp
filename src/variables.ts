@@ -57,3 +57,17 @@ persona={
     nombre:"Pedro",
     edad:30
 };
+
+// Plantillas literales o templates literales
+
+let nnom1:string="Jean";
+let ape1:string="Velarde";
+let year:number=27;
+
+let textofinal="hola "+ nnom1 + " " +ape1 + " ("+year+").";
+
+console.log(textofinal);
+
+let textoSimple=`Hola ${nnom1} ${ape1} (${year}).`;
+
+console.log(textoSimple);

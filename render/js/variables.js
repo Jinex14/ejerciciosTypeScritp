@@ -41,3 +41,11 @@ persona = {
     nombre: "Pedro",
     edad: 30
 };
+// Plantillas literales o templates literales
+var nnom1 = "Jean";
+var ape1 = "Velarde";
+var year = 27;
+var textofinal = "hola " + nnom1 + " " + ape1 + " (" + year + ").";
+console.log(textofinal);
+var textoSimple = "Hola " + nnom1 + " " + ape1 + " (" + year + ").";
+console.log(textoSimple);
