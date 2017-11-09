@@ -1,2 +1,2 @@
 1.- archivos datos.ts
-2.- 
+2.- constantes y let
