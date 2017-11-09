@@ -71,3 +71,35 @@ console.log(textofinal);
 let textoSimple=`Hola ${nnom1} ${ape1} (${year}).`;
 
 console.log(textoSimple);
+
+//Si pongo esto que va salir
+
+let texto2:string=`${1+1}`;
+
+console.log(texto2);
+
+let texto3:string=`${Obtenombre()}`;
+
+console.log(texto3);
+
+function Obtenombre(){
+    return "Jean Carlo mi Dios";
+}
+
+// Parametros Obligatorios - opcionales y por defectos
+
+//nunca se puede poner el primer parametro como opcional
+function activar(quien:string , ensena:string="me enseña", curso?:string) {
+    
+    let mensaje:string;
+
+    if(curso){
+    mensaje=`${quien} ${ensena} ${curso}`;
+    }else{
+        mensaje=`${quien} ${ensena} `;
+    }   
+    console.log(mensaje);
+
+}
+
+activar("Jean","me enseña","Typescript");

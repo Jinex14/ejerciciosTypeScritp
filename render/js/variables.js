@@ -49,3 +49,25 @@ var textofinal = "hola " + nnom1 + " " + ape1 + " (" + year + ").";
 console.log(textofinal);
 var textoSimple = "Hola " + nnom1 + " " + ape1 + " (" + year + ").";
 console.log(textoSimple);
+//Si pongo esto que va salir
+var texto2 = "" + (1 + 1);
+console.log(texto2);
+var texto3 = "" + Obtenombre();
+console.log(texto3);
+function Obtenombre() {
+    return "Jean Carlo mi Dios";
+}
+// Parametros Obligatorios - opcionales y por defectos
+//nunca se puede poner el primer parametro como opcional
+function activar(quien, ensena, curso) {
+    if (ensena === void 0) { ensena = "me enseña"; }
+    var mensaje;
+    if (curso) {
+        mensaje = quien + " " + ensena + " " + curso;
+    }
+    else {
+        mensaje = quien + " " + ensena + " ";
+    }
+    console.log(mensaje);
+}
+activar("Jean", "me enseña", "Typescript");
