@@ -1,0 +1,2 @@
+# ejerciciosTypeScritp
+Ejercicios typeScrip
