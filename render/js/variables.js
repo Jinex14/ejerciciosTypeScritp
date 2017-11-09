@@ -17,3 +17,27 @@ if (true) {
 console.log(dato);
 console.log(mensaje);
 console.log(PERSONA.nombre);
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//Tipos de datos especificos
+var nombre = "Jean Carlo";
+//error
+// nombre = 123;
+var nom = "Jean";
+var numero = 1234;
+var booleano = true;
+var hoy = new Date();
+hoy = new Date('2017-11-05');
+console.log(hoy);
+var cualquier;
+cualquier = numero;
+cualquier = booleano;
+cualquier = hoy;
+var persona = {
+    nombre: "Jean",
+    edad: 27
+};
+//editar objetos solo se puede cuando tienen los mismos tipos
+persona = {
+    nombre: "Pedro",
+    edad: 30
+};
