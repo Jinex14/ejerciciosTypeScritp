@@ -6,5 +6,6 @@ let funcion=function( a:any ) {
 
 let funcionF = a => a;
 
+
 console.log(funcion("normal"));
 console.log(funcionF("flecha"));
