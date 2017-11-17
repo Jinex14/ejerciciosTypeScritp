@@ -1,3 +1,6 @@
 1.- archivos datos.ts
 2.- constantes y let
 3.- funciones flecha
+4.- destructuracion de objetos.
+5.- promesas.
+6.- Objetos.
