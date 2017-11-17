@@ -3,4 +3,5 @@
 3.- funciones flecha
 4.- destructuracion de objetos.
 5.- promesas.
-6.- Objetos.
+6.- Clase.
+7.- imports.
