@@ -12,6 +12,16 @@ export class jugador{
         this.goles=goles;
     }
 
+   /**
+    * name
+    */
+   public borracho() {
+    console.log(this.nombre + " no juega es un pobre borracho");
+   } 
+
+   public heroe(){
+       console.log(`${nombre} es el heroe del partido`);
+   }
 }
 
 //constructor de typescript es mas fuerte que el ES5

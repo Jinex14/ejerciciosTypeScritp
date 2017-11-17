@@ -7,6 +7,15 @@ var jugador = /** @class */ (function () {
         this.equipo = equipo;
         this.goles = goles;
     }
+    /**
+     * name
+     */
+    jugador.prototype.borracho = function () {
+        console.log(this.nombre + " no juega es un pobre borracho");
+    };
+    jugador.prototype.heroe = function () {
+        console.log(nombre + " es el heroe del partido");
+    };
     return jugador;
 }());
 exports.jugador = jugador;
